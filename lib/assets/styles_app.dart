@@ -1,5 +1,3 @@
-//import 'dart:js';
-
 import 'package:flutter/material.dart';
 
 class StylesApp {
@@ -7,7 +5,7 @@ class StylesApp {
     final theme = ThemeData.light();
     return theme.copyWith(
       colorScheme: Theme.of(context).colorScheme.copyWith(
-      primary: Color.fromARGB(255,255,0,0)
+        primary: Color.fromARGB(255, 255, 0, 0),
       )
     );
   }
@@ -16,7 +14,7 @@ class StylesApp {
     final theme = ThemeData.dark();
     return theme.copyWith(
       colorScheme: Theme.of(context).colorScheme.copyWith(
-      primary: Color.fromARGB(255, 77, 74, 74)
+        primary: Color.fromARGB(255, 50, 10, 10),
       )
     );
   }

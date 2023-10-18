@@ -41,9 +41,11 @@ class _LoginScreenState extends State<LoginScreen> {
     final btnEntrar = FloatingActionButton.extended(
       icon: Icon(Icons.login),
       label: Text('Entrar'),
-      onPressed: () {
-        Navigator.pushNamed(context, '/onboarding');
-      },
+      onPressed: () => 
+      Navigator.pushNamed(context, '/onboarding')
+      /*(){
+        Navigator.pushNamed(context, '/dash');
+      }*/
     );
 
     
